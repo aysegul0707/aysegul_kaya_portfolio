@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayşegül Kaya | Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">AK</a>
+            <ul class="nav-menu">
+                <li><a href="#about" data-i18n="nav_about">Hakkımda</a></li>
+                <li><a href="#education" data-i18n="nav_education">Eğitim</a></li>
+                <li><a href="#experience" data-i18n="nav_experience">Deneyim</a></li>
+                <li><a href="#projects" data-i18n="nav_projects">Projeler</a></li>
+                <li><a href="#publications" data-i18n="nav_publications">Yayınlar</a></li>
+                <li><a href="#contact" data-i18n="nav_contact">İletişim</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Tema Değiştir">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="lang-toggle" id="langToggle" aria-label="Dil Değiştir">
+                TR
+            </button>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting" data-i18n="hero_greeting">Merhaba, ben</p>
+                <h1 class="hero-name">Ayşegül Kaya</h1>
+                <p class="hero-title" data-i18n="hero_title">Backend Developer & Bilgisayar Mühendisliği Öğrencisi</p>
+                <p class="hero-description" data-i18n="hero_desc">Python, Flask, React ve makine öğrenmesi teknolojileriyle çözümler geliştiriyorum.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary" data-i18n="hero_btn_projects">Projelerimi Gör</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="hero_btn_contact">İletişime Geç</a>
+                </div>
+                <div class="hero-social">
+                    <a href="mailto:aysegulky007@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/aysegulkayaa/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/aysegul0707" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span data-i18n="scroll_down">Aşağı Kaydır</span>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_about">Hakkımda</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p data-i18n="about_text_1">Selçuk Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Backend geliştirme, veri analizi ve makine öğrenmesi alanlarında projeler geliştiriyorum.</p>
+                    <p data-i18n="about_text_2">Huawei Student Developers topluluğunda Başkan Yardımcısı olarak görev aldım. NASA Space Apps Challenge ve TEKNOFEST gibi prestijli yarışmalarda yer aldım.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span data-i18n="location">Antalya / Konya, Türkiye</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-language"></i>
+                            <span data-i18n="language_level">İngilizce B1+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-section">
+                    <h3 data-i18n="technical_skills">Teknik Yetenekler</h3>
+                    <div class="skills-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-js"></i> JavaScript</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-react"></i> React</span>
+                                <span class="skill-percent">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fas fa-flask"></i> Flask</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fas fa-brain"></i> Machine Learning</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span class="skill-name"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills-tags-compact">
+                        <span class="skill-tag-mini">Flutter</span>
+                        <span class="skill-tag-mini">Dart</span>
+                        <span class="skill-tag-mini">Node.js</span>
+                        <span class="skill-tag-mini">Pandas</span>
+                        <span class="skill-tag-mini">NumPy</span>
+                        <span class="skill-tag-mini">Scikit-learn</span>
+                        <span class="skill-tag-mini">SQL</span>
+                        <span class="skill-tag-mini">REST API</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_education">Eğitim</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date" data-i18n="edu_uni_date">2022 – 2026 (beklenen)</span>
+                        <h3 data-i18n="edu_uni_name">Selçuk Üniversitesi</h3>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> <span data-i18n="location_konya">Konya, Türkiye</span></p>
+                        <p data-i18n="edu_uni_dept">Bilgisayar Mühendisliği</p>
+                        <p class="timeline-highlight" data-i18n="edu_uni_project"><strong>Bitirme Projesi:</strong> Sentinel-2 verileriyle dinamik tarla takip sistemi (Python, ML)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2016 – 2020</span>
+                        <h3 data-i18n="edu_hs_name">Hacı Malike Mehmet Bileydi Anadolu Lisesi</h3>
+                        <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> <span data-i18n="location_antalya">Antalya, Türkiye</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_experience">Deneyim</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fab fa-huawei"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-date">2023 – 2024</span>
+                        <h3>Huawei Student Developers Selçuk</h3>
+                        <p class="card-role" data-i18n="exp_huawei_role">Başkan Yardımcısı</p>
+                        <p data-i18n="exp_huawei_desc">Etkinlik organizasyonu, geliştirici topluluğu yönetimi ve teknik ekip koordinasyonu.</p>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-date" data-i18n="exp_intern">Staj</span>
+                        <h3>Akdere Makine</h3>
+                        <p class="card-role" data-i18n="exp_intern_role">Stajyer</p>
+                        <p data-i18n="exp_akdere_desc">Delta ISPSoft ile PLC programlama, Ladder diyagram tasarımı ve DOPSoft ile HMI arayüz geliştirme. Endüstriyel otomasyon mantığı ve donanım-yazılım entegrasyonu.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_projects">Projeler</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card featured">
+                    <div class="project-header">
+                        <span class="project-status" data-i18n="proj_status_ongoing">Devam Ediyor</span>
+                        <i class="fas fa-satellite project-icon"></i>
+                    </div>
+                    <h3 data-i18n="proj_1_title">Tarımsal Dinamik İzleme Sistemi</h3>
+                    <p class="project-role" data-i18n="proj_1_role">Bitirme Projesi</p>
+                    <p data-i18n="proj_1_desc">Uydu görüntüleriyle tarla sahiplerine izleme & durum değerlendirme sunan sistem. Web/mobil arayüz planlanıyor.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Sentinel-2</span>
+                        <span>ML</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status" data-i18n="proj_status_ongoing">Devam Ediyor</span>
+                        <i class="fas fa-rocket project-icon"></i>
+                    </div>
+                    <h3>NASA Space Apps Challenge</h3>
+                    <p class="project-role">Backend Developer</p>
+                    <p data-i18n="proj_2_desc">MERRA-2 veri seti üzerinde eksik veri tamamlama, outlier temizleme ve veri standardizasyonu. LLM tabanlı öneri sistemi ekleniyor.</p>
+                    <div class="project-tech">
+                        <span>Flask</span>
+                        <span>Python</span>
+                        <span>React</span>
+                        <span>API</span>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status" data-i18n="proj_status_ongoing">Devam Ediyor</span>
+                        <i class="fas fa-shopping-bag project-icon"></i>
+                    </div>
+                    <h3 data-i18n="proj_3_title">Kampüs 2. El Uygulaması</h3>
+                    <p class="project-role">Backend Developer</p>
+                    <p data-i18n="proj_3_desc">Kampüs içi ikinci el alışveriş platformu. Backend API tasarımı, kullanıcı yönetimi ve ürün listeleme servisleri.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status" data-i18n="proj_status_ongoing">Devam Ediyor</span>
+                        <i class="fas fa-tint project-icon"></i>
+                    </div>
+                    <h3 data-i18n="proj_4_title">Akıllı Çamaşırhane Sistemi</h3>
+                    <p class="project-role" data-i18n="proj_4_role">Full Stack - Girişimcilik Projesi</p>
+                    <p data-i18n="proj_4_desc">Mobil rezervasyon, su tüketimi optimizasyonu ve otonom yönetim konsepti.</p>
+                    <div class="project-tech">
+                        <span>Flutter</span>
+                        <span>Dart</span>
+                        <span>C++</span>
+                        <span>ESP-32</span>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status completed">2024</span>
+                        <i class="fas fa-plane project-icon"></i>
+                    </div>
+                    <h3 data-i18n="proj_5_title">TEKNOFEST 2024 - Uçan Araba Simülasyonu</h3>
+                    <p class="project-role" data-i18n="proj_5_role">Takım Üyesi</p>
+                    <p data-i18n="proj_5_desc">Acil durumlar için pil optimizasyon algoritmaları, rota değişikliği ve en kısa yol hesaplama. GNSS ve radar verileri için gürültü filtreleme.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-status completed">2024</span>
+                        <i class="fas fa-utensils project-icon"></i>
+                    </div>
+                    <h3 data-i18n="proj_6_title">Kişiye Özel Diyet Planı</h3>
+                    <p class="project-role">Full Stack</p>
+                    <p data-i18n="proj_6_desc">Form inputlarına göre kişisel öneri üreten web uygulaması.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Tailwind CSS</span>
+                        <span>API</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_publications">Yayınlar</h2>
+            <div class="publication-card">
+                <div class="publication-icon">
+                    <i class="fas fa-file-alt"></i>
+                </div>
+                <div class="publication-content">
+                    <span class="publication-date" data-i18n="pub_date">28 Kasım 2025</span>
+                    <span class="publication-venue">SUTIS 2025</span>
+                    <h3>Rainfall Prediction Using NASA Earth Observation Data and Ensemble Learning</h3>
+                    <p class="publication-authors"><strong>Dr. Ali Çetinkaya, Ayşegül Kaya</strong></p>
+                    <p class="publication-abstract" data-i18n="pub_abstract">MERRA-2 veri seti üzerinde yeni indeksler oluşturuldu. Random Forest + Ensemble yöntemleriyle tahmin modelleri geliştirildi. Sonuçlar SUTIS'te bildiri olarak sunuldu.</p>
+                    <div class="publication-links">
+                        <a href="./assets/rainfall-prediction.pdf" class="publication-btn" target="_blank" rel="noopener">
+                            <i class="fas fa-file-pdf"></i> <span data-i18n="pub_btn_read">Makaleyi Oku</span>
+                        </a>
+                        <a href="https://sutis.selcuk.edu.tr/" class="publication-btn secondary" target="_blank" rel="noopener">
+                            <i class="fas fa-external-link-alt"></i> <span data-i18n="pub_btn_conf">Konferans Sayfası</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section_contact">İletişim</h2>
+            <p class="section-subtitle" data-i18n="contact_subtitle">Benimle iletişime geçmekten çekinmeyin!</p>
+            <div class="contact-grid">
+                <a href="mailto:aysegulky007@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>aysegulky007@gmail.com</p>
+                </a>
+                <a href="tel:+905375620013" class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3 data-i18n="contact_phone">Telefon</h3>
+                    <p>+90 537 562 00 13</p>
+                </a>
+                <a href="https://www.linkedin.com/in/aysegulkayaa/" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin-in"></i>
+                    <h3>LinkedIn</h3>
+                    <p>linkedin.com/in/aysegulkayaa</p>
+                </a>
+                <a href="https://github.com/aysegul0707" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>github.com/aysegul0707</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p data-i18n="footer_rights">&copy; 2025 Ayşegül Kaya. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayşegül Kaya | Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Lace Pattern Overlay -->
+    <div class="lace-overlay"></div>
+    
+    <!-- Language Switcher -->
+    <div class="language-switcher">
+        <button class="lang-btn active" data-lang="tr">TR</button>
+        <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">Ayşegül Kaya</div>
+        <ul class="nav-links">
+            <li><a href="#about" data-tr="Hakkımda" data-en="About">Hakkımda</a></li>
+            <li><a href="#experience" data-tr="Deneyim" data-en="Experience">Deneyim</a></li>
+            <li><a href="#professional" data-tr="Profesyonel Deneyim" data-en="Professional Experience">Profesyonel Deneyim</a></li>
+            <li><a href="#projects" data-tr="Projeler" data-en="Projects">Projeler</a></li>
+            <li><a href="#achievements" data-tr="Başarılar" data-en="Achievements">Başarılar</a></li>
+            <li><a href="#references" data-tr="Referanslar" data-en="References">Referanslar</a></li>
+            <li><a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="glitch" data-text="Ayşegül Kaya">Ayşegül Kaya</h1>
+                <p class="hero-subtitle" data-tr="Backend Developer | Bilgisayar Mühendisliği Öğrencisi" data-en="Backend Developer | Computer Engineering Student">Backend Developer | Bilgisayar Mühendisliği Öğrencisi</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary" data-tr="İletişime Geç" data-en="Get in Touch">İletişime Geç</a>
+                    <a href="#projects" class="btn btn-secondary" data-tr="Projelerimi Gör" data-en="View Projects">Projelerimi Gör</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-tr="Hakkımda" data-en="About Me">Hakkımda</h2>
+            <div class="lace-divider"></div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <div class="placeholder-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p data-tr="Merhaba! Ben Ayşegül Kaya, Selçuk Üniversitesi Bilgisayar Mühendisliği bölümü 4. sınıf öğrencisiyim. Backend geliştirme alanında kendimi geliştiriyor ve yazılım dünyasında izler bırakmak için çalışıyorum." 
+                       data-en="Hello! I'm Ayşegül Kaya, a senior Computer Engineering student at Selçuk University. I'm developing myself in backend development and working to make my mark in the software world.">
+                        Merhaba! Ben Ayşegül Kaya, Selçuk Üniversitesi Bilgisayar Mühendisliği bölümü 4. sınıf öğrencisiyim. Backend geliştirme alanında kendimi geliştiriyor ve yazılım dünyasında izler bırakmak için çalışıyorum.
+                    </p>
+                    <p data-tr="Teknolojiye olan tutkum, üniversite kulüplerinde aktif rol almamı ve çeşitli organizasyonlarda liderlik yapmamı sağladı. Hem teknik becerilerimi hem de iletişim yeteneklerimi geliştirerek, ekip çalışmasına yatkın bir mühendis adayı olarak yetişiyorum."
+                       data-en="My passion for technology has led me to take active roles in university clubs and leadership positions in various organizations. By developing both my technical skills and communication abilities, I'm growing as an engineer candidate who is proficient in teamwork.">
+                        Teknolojiye olan tutkum, üniversite kulüplerinde aktif rol almamı ve çeşitli organizasyonlarda liderlik yapmamı sağladı. Hem teknik becerilerimi hem de iletişim yeteneklerimi geliştirerek, ekip çalışmasına yatkın bir mühendis adayı olarak yetişiyorum.
+                    </p>
+                    <div class="skills-container">
+                        <h3 data-tr="Teknik Yetenekler" data-en="Technical Skills">Teknik Yetenekler</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">REST API</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Cloud Computing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title" data-tr="Deneyim" data-en="Experience">Deneyim</h2>
+            <div class="lace-divider"></div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-tr="Huawei Student Developers - Başkan Yardımcısı" data-en="Huawei Student Developers - Vice President">Huawei Student Developers - Başkan Yardımcısı</h3>
+                        <span class="timeline-date" data-tr="1 Yıl | Selçuk Üniversitesi" data-en="1 Year | Selçuk University">1 Yıl | Selçuk Üniversitesi</span>
+                        <p data-tr="Selçuk Üniversitesi Huawei Student Developers topluluğunda bir yıl boyunca başkan yardımcılığı görevini üstlenerek, etkinliklerin planlanması ve yürütülmesinde aktif rol aldım."
+                           data-en="Served as Vice President of Huawei Student Developers community at Selçuk University for one year, taking an active role in planning and executing events.">
+                            Selçuk Üniversitesi Huawei Student Developers topluluğunda bir yıl boyunca başkan yardımcılığı görevini üstlenerek, etkinliklerin planlanması ve yürütülmesinde aktif rol aldım.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-tr="Programlama ve Oyun Geliştirme Topluluğu - Sponsorluk Başkanı" data-en="Programming and Game Development Community - Sponsorship Head">Programlama ve Oyun Geliştirme Topluluğu - Sponsorluk Başkanı</h3>
+                        <span class="timeline-date" data-tr="2 Yıl | Selçuk Üniversitesi" data-en="2 Years | Selçuk University">2 Yıl | Selçuk Üniversitesi</span>
+                        <p data-tr="İki yıl boyunca sponsorluk başkanlığı yaparak, topluluk etkinlikleri için sponsor ilişkilerini yönettim. Ayrıca sosyal aktivitelerin organizasyonunu üstlenerek ekip koordinasyonu ve etkinlik yönetimi becerilerimi geliştirdim."
+                           data-en="Managed sponsor relations for community events as Sponsorship Head for two years. Also organized social activities, developing my team coordination and event management skills.">
+                            İki yıl boyunca sponsorluk başkanlığı yaparak, topluluk etkinlikleri için sponsor ilişkilerini yönettim. Ayrıca sosyal aktivitelerin organizasyonunu üstlenerek ekip koordinasyonu ve etkinlik yönetimi becerilerimi geliştirdim.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-tr="Bilim Konya - Teknik Destek Gönüllüsü" data-en="Bilim Konya - Technical Support Volunteer">Bilim Konya - Teknik Destek Gönüllüsü</h3>
+                        <span class="timeline-date" data-tr="Gönüllü Çalışma" data-en="Volunteer Work">Gönüllü Çalışma</span>
+                        <p data-tr="Bilim Konya organizasyonunda teknik destek gönüllüsü olarak görev alarak, bilim ve teknoloji alanında topluma katkı sağladım."
+                           data-en="Contributed to the community in science and technology by serving as a technical support volunteer at Bilim Konya organization.">
+                            Bilim Konya organizasyonunda teknik destek gönüllüsü olarak görev alarak, bilim ve teknoloji alanında topluma katkı sağladım.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Section -->
+    <section id="professional" class="section">
+        <div class="container">
+            <h2 class="section-title" data-tr="Profesyonel Deneyim" data-en="Professional Experience">Profesyonel Deneyim</h2>
+            <div class="lace-divider"></div>
+            <div class="experience-cards">
+                <div class="experience-card">
+                    <div class="card-header">
+                        <i class="fas fa-cogs"></i>
+                        <h3 data-tr="Stajyer - Otomasyon" data-en="Intern - Automation">Stajyer - Otomasyon</h3>
+                    </div>
+                    <div class="card-body">
+                        <p data-tr="Otomasyon sistemleri üzerine staj yaparak, endüstriyel otomasyon süreçlerini ve yazılım entegrasyonunu deneyimledim. Bu süreçte gerçek dünya problemlerine çözümler üretme fırsatı buldum."
+                           data-en="Completed internship on automation systems, experiencing industrial automation processes and software integration. During this period, I had the opportunity to produce solutions for real-world problems.">
+                            Otomasyon sistemleri üzerine staj yaparak, endüstriyel otomasyon süreçlerini ve yazılım entegrasyonunu deneyimledim. Bu süreçte gerçek dünya problemlerine çözümler üretme fırsatı buldum.
+                        </p>
+                        <ul class="experience-highlights">
+                            <li data-tr="Otomasyon süreçlerinin analizi" data-en="Analysis of automation processes">Otomasyon süreçlerinin analizi</li>
+                            <li data-tr="Yazılım entegrasyonu" data-en="Software integration">Yazılım entegrasyonu</li>
+                            <li data-tr="Problem çözme ve optimizasyon" data-en="Problem solving and optimization">Problem çözme ve optimizasyon</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title" data-tr="Projeler" data-en="Projects">Projeler</h2>
+            <div class="lace-divider"></div>
+            <div class="projects-grid">
+                <div class="project-card coming-soon">
+                    <div class="project-overlay">
+                        <i class="fas fa-code"></i>
+                        <h3 data-tr="Yakında" data-en="Coming Soon">Yakında</h3>
+                        <p data-tr="Projeler yakında eklenecek..." data-en="Projects will be added soon...">Projeler yakında eklenecek...</p>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-overlay">
+                        <i class="fas fa-server"></i>
+                        <h3 data-tr="Yakında" data-en="Coming Soon">Yakında</h3>
+                        <p data-tr="Projeler yakında eklenecek..." data-en="Projects will be added soon...">Projeler yakında eklenecek...</p>
+                    </div>
+                </div>
+                <div class="project-card coming-soon">
+                    <div class="project-overlay">
+                        <i class="fas fa-database"></i>
+                        <h3 data-tr="Yakında" data-en="Coming Soon">Yakında</h3>
+                        <p data-tr="Projeler yakında eklenecek..." data-en="Projects will be added soon...">Projeler yakında eklenecek...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title" data-tr="Yarışmalar & Sertifikalar" data-en="Competitions & Certificates">Yarışmalar & Sertifikalar</h2>
+            <div class="lace-divider"></div>
+            <div class="achievements-container">
+                <div class="achievement-category">
+                    <h3><i class="fas fa-trophy"></i> <span data-tr="Yarışmalar" data-en="Competitions">Yarışmalar</span></h3>
+                    <div class="achievement-list">
+                        <div class="achievement-item">
+                            <div class="achievement-badge">
+                                <i class="fas fa-medal"></i>
+                                <span class="badge-rank">6.</span>
+                            </div>
+                            <div class="achievement-info">
+                                <h4 data-tr="TEKNOFEST 2024 - Uçan Araba Simülasyonu" data-en="TEKNOFEST 2024 - Flying Car Simulation">TEKNOFEST 2024 - Uçan Araba Simülasyonu</h4>
+                                <p data-tr="Ekibimle birlikte Türkiye'nin en büyük teknoloji yarışmasında uçan araba simülasyonu kategorisinde yarışarak final aşamasına ulaştık ve 6. sırada yer aldık."
+                                   data-en="Competed with my team in the flying car simulation category at Turkey's largest technology competition, reaching the finals and placing 6th.">
+                                    Ekibimle birlikte Türkiye'nin en büyük teknoloji yarışmasında uçan araba simülasyonu kategorisinde yarışarak final aşamasına ulaştık ve 6. sırada yer aldık.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-badge">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4 data-tr="NASA Space Apps Challenge 2025" data-en="NASA Space Apps Challenge 2025">NASA Space Apps Challenge 2025</h4>
+                                <p data-tr="Dünyanın en büyük hackathon etkinliklerinden biri olan NASA Space Apps Challenge'a katılarak global ölçekte deneyim kazandım."
+                                   data-en="Gained global experience by participating in NASA Space Apps Challenge, one of the world's largest hackathon events.">
+                                    Dünyanın en büyük hackathon etkinliklerinden biri olan NASA Space Apps Challenge'a katılarak global ölçekte deneyim kazandım.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-category">
+                    <h3><i class="fas fa-certificate"></i> <span data-tr="Sertifikalar" data-en="Certificates">Sertifikalar</span></h3>
+                    <div class="certificate-grid">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <h4>BTK Oracle</h4>
+                            <p data-tr="Veritabanı Yönetimi" data-en="Database Management">Veritabanı Yönetimi</p>
+                        </div>
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4 data-tr="BTK Siber Güvenliğe Giriş" data-en="BTK Introduction to Cybersecurity">BTK Siber Güvenliğe Giriş</h4>
+                            <p data-tr="Siber Güvenlik Temelleri" data-en="Cybersecurity Fundamentals">Siber Güvenlik Temelleri</p>
+                        </div>
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <h4>Huawei Cloud</h4>
+                            <p data-tr="Bulut Bilişim" data-en="Cloud Computing">Bulut Bilişim</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- References Section -->
+    <section id="references" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title" data-tr="Referanslar" data-en="References">Referanslar</h2>
+            <div class="lace-divider"></div>
+            <div class="references-grid">
+                <div class="reference-card">
+                    <div class="reference-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Ahsen Kaya</h3>
+                    <p class="reference-title" data-tr="Elektrik Elektronik Mühendisi" data-en="Electrical Electronics Engineer">Elektrik Elektronik Mühendisi</p>
+                    <p class="reference-company">ASELSAN</p>
+                </div>
+                <div class="reference-card">
+                    <div class="reference-avatar">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Doç. Dr. Ahmet Cevahir Çınar</h3>
+                    <p class="reference-title" data-tr="Bilgisayar Mühendisliği Bölümü" data-en="Computer Engineering Department">Bilgisayar Mühendisliği Bölümü</p>
+                    <p class="reference-company" data-tr="Selçuk Üniversitesi" data-en="Selçuk University">Selçuk Üniversitesi</p>
+                </div>
+                <div class="reference-card">
+                    <div class="reference-avatar">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h3>Osman Akdere</h3>
+                    <p class="reference-title" data-tr="Elektronik ve Haberleşme Mühendisi" data-en="Electronics and Communication Engineer">Elektronik ve Haberleşme Mühendisi</p>
+                    <p class="reference-company">Akdere Makine</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-tr="İletişim" data-en="Contact">İletişim</h2>
+            <div class="lace-divider"></div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4 data-tr="Konum" data-en="Location">Konum</h4>
+                            <p>Antalya, Türkiye</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:email@example.com">email@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4 data-tr="Telefon" data-en="Phone">Telefon</h4>
+                            <p><a href="tel:+905555555555">+90 555 555 55 55</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/aysegul0707" target="_blank" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ayşegül Kaya. <span data-tr="Tüm hakları saklıdır." data-en="All rights reserved.">Tüm hakları saklıdır.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
